@@ -20,7 +20,7 @@ if (localStorage.getItem("myMap")) {
 
 
 // this is the time blocks but only a certain amount of hours 
-for (let hour = 10; hour < 19; hour++) {
+for (let hour = 1; hour < 24; hour++) {
 
     // this makes the divs devide into smaller ones 
     let timeBlock = $('<div>');
