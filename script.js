@@ -1,6 +1,6 @@
-const currentDate = moment().format('dddd MMMM Do, YYYY');
-const currentTime = moment().format('hh:mm:ss a');
-const currentHour = moment().format('HH');
+var currentDate = moment().format('dddd MMMM Do, YYYY');
+var currentTime = moment().format('hh:mm:ss a');
+var currentHour = moment().format('HH');
 let amPM = "AM";
 let finalHour = "";
 let timeMap = new Map();
@@ -86,13 +86,13 @@ for (let hour = 10; hour < 19; hour++) {
 
         // if the hour happens in the future, make the background green
         timeBlock.addClass("future");
-        textAreaForDiv.attr("placeholder", "Enter a task to complete this hour...");
+        textAreaForDiv.attr("placeholder", "What task would you like to do?");
 
     } else {
 
         // make the background red
         timeBlock.addClass("present");
-        textAreaForDiv.attr("placeholder", "Enter a task to complete this hour...");
+        textAreaForDiv.attr("placeholder", "What task Would you like to do?");
     }
 
     // add completed time block to the main container 
@@ -101,8 +101,6 @@ for (let hour = 10; hour < 19; hour++) {
 
 
 }
-
-
 
 timeMap.forEach(function (text, key) {
 
@@ -113,13 +111,10 @@ timeMap.forEach(function (text, key) {
 
 });
 
-
-
 // when the user clicks the save button on that hour it will be written to memory and persist with window reloads
 $(".saveBtn").on('click', function () {
 
     let textAreaVar = "#textarea" + (this.id);
-
 
     // write to the daily timeMap Map
     timeMap.set((this.id), document.querySelector(textAreaVar).value);
