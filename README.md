@@ -1,8 +1,11 @@
 # Work Day Calender
 
 ## Description
-This project was great, for some reason whatever I didn't learn from the previous modeule I grapsed in this one. I understood where and how Jquery worked, the formulas seemed alot simpler to me. I guess we learn alot of the hard stuff first the go after some easier stuff. haha. But I like this one because the more we go into the program the more we into real world projects, at least it feels that way for me. This was one was great. Had alot of moving parts. 
+The application to use a calender is always incredible useful, now adding the power to save points on what you'd like to do during your day is even better. We start by layind down the foundation that is making a day calender and using a block system to see hour by hour. Adding a saving file to make youre youll be able to write down small notes or important things youd like to do during the day is always good. 
 
+## Credits / Information Sources
+https://www.github.com/LujanSolo
+https://github.com/Sam-T-G
 
 ## License
 MIT License
