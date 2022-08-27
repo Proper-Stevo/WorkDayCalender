@@ -38,3 +38,5 @@ https://proper-stevo.github.io/WorkDayCalender/
 ## Image 
 
 Images/WorkingWebsite.png
+
+![alt text](https://github.com/Proper-Stevo/WorkDayCalender/blob/main/Images/WorkingWebsite.png)
