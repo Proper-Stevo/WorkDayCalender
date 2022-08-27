@@ -1,7 +1,12 @@
 # Work Day Calender
 
 ## Description
-The application to use a calender is always incredible useful, now adding the power to save points on what you'd like to do during your day is even better. We start by layind down the foundation that is making a day calender and using a block system to see hour by hour. Adding a saving file to make youre youll be able to write down small notes or important things youd like to do during the day is always good. 
+Description
+An online calendar is incredibly useful, Even more useful, this calendar app has the ability to set and save reminders in easy to read, hourly rows. 
+
+Usage
+
+Jot down small notes into the hourly entry fields. Save your entries by clicking the SAVE icon at the end of the row. Extremely helpful. 
 
 ## Credits / Information Sources
 https://www.github.com/LujanSolo
